@@ -1,0 +1,32 @@
+body {
+    background-color: red;
+
+}
+
+.button {
+    display: grid;
+
+    width: 200px;
+    height: 90px;
+    background-color: green;
+    background-image: url("https://s3.us-west-2.amazonaws.com/secure.notion-static.com/60a24b8a-8c6b-42d2-93ab-2484fae91afe/menu.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAT73L2G45A5CDXXVV%2F20191003%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20191003T144825Z&X-Amz-Expires=86400&X-Amz-Security-Token=AgoJb3JpZ2luX2VjEC0aCXVzLXdlc3QtMiJHMEUCIQDGgju8bMScijxXzarWVi%2BAK4RHOdiOw7pWkp2p%2BlQ49gIgHuITUt3QVRXJZKWP4Dfy3Po2XicKa0tUcfWoE2ym9ycq2gMIFhAAGgwyNzQ1NjcxNDkzNzAiDG3Znfn6VNL5SiOJoSq3A9ECmmDepBWKwhWRF3uuy4lSvqtgtj%2Fzcl%2FSLcjv79x1JoJBUTTVmDpB6ky477Xwp8jYEhRSELhpiek%2BCYn1ZzApsKQlBMv7UTHRYsK9H2La5Yg3Fb3kp1OhIgCw0foglIhavrzL3%2Fx6GtBlEN15Wt%2FW04khiW4A%2Bow7hKFDTcwnt170Ey9w8y3OMfkp4V0piXTFB1e2zhhqYZtX9tsVuVuUtiymyGCOkVzU7cUudYpEjXadKFmGGeFhSnbzTy2Y8yU6N8AaOvEwwFpTWbjRNwddQpTQNzk1FTon%2FScBUEtA8EEfAlPs1V2ZOT%2FSSoomuwg0Kizk98CB4m%2FVmfCWZvJKAYk5pZhY6chdz9RCkYTb4L5po%2FG4IkS5sSvC9SO%2BaDf%2Fs8XidKrzpZtCFsYlOZ%2BDPObxBNvVUU0l%2F25dN0Qlaafov7oZrydX%2Fbm6BVuBsQq5q3pBZzGNJV2t7DNt24xa%2BEBg9AQ9gLiq%2BNkSRttK28OyttTgpXOBcoPhlwkx353mEvB%2BCN%2BnDJKnbyPX%2FDco0OL92FkcyLNG7K9Qwd0omRolSfzyawv0rRGAhGVgJuUeYPga7sUw7tXX7AU6tAH3POK6rL0ZXdv1KQqHhbXKlwvBzg%2BWEpRu5A17KWq9fzcU8nsHOl1G5laK7Cls5a3BtgBqLdmZXbEtn9lTnDDnDL8RgLVnr%2FZKULRdZw3Z8yoYD7Q8kmcy9Ktfxfy905wx8MTj03dgKPSXkVKiBsKbYM%2BIILoqNoD47H%2F0lNSCgYBUBcrlwQ9l1IrExwFiJNJkOJPDs7vck9HVSKUufpor%2BLGJ0K9xa72hyjtca3zlgMeCEcY%3D&X-Amz-Signature=116b0a5cac94b89b8156468998271830bede6c1b714558d8212d20b2b3e1d6e3&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22menu.png%22");
+    background-repeat: no-repeat;
+    background-size: 40%;
+    cursor: pointer;
+
+}
+
+.kleurenmenu {
+    display: grid;
+    width: 200px;
+    height: 200px;
+   
+}
+
+.klik {
+    visibility: hidden;
+    display: block;
+    list-style-type: none;
+    line-height: 60px;
+    background-color: pink;
+}
